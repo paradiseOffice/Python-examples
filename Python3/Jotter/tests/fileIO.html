@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+     <title>Jotter - FileIO Manual Test</title>
+    <meta name="" content="" />
+     <link rel="stylesheet" type="text/css" href="tests.css" />
+     
+  </head>
+<body id="">
+
+<header>
+    <h1>Jotter</h1>
+    <h2>FileIO Manual Tests</h2>
+</header>
+
+<section>
+    <table>
+        <thead><tr>
+	<th>Name</th><th>Method</th><th>WinXP (Optional)</th><th>Win7 32bit</th><th>OpenSuse 64bit</th><th>Xubuntu 32bit</th>
+        </tr></thead>
+
+        <tbody>
+        <tr><td class="test-name">First Use</td><td class="test-method"> New 1 File Present for typing in. </td><td></td><td></td><td></td><td>PASS</td></tr>
+        <tr><td class="test-name">New File  </td><td class="test-method">Test new file in menu and common bar. They should be called 'new 2' and 'new 3'.</td><td></td><td></td><td></td><td>PASS</td></tr>
+        <tr><td class="test-name">Open File </td><td class="test-method"> Open one plain text file from the menu and from the common bar.</td><td></td><td></td><td></td><td>PASS</td></tr>
+        <tr><td class="test-name">Open Multiple Files </td><td class="test-method"> Go to open file, and select more than one plain text file to open. Verify that each file opens in a separate tab.</td><td>PASS</td><td>PASS</td><td>PASS</td><td>PASS</td></tr>
+        <tr><td class="test-name">Save File </td><td class="test-method"> In one of the new files, type 'hello', select save from the menu and name it file1.txt. Check the output.</td><td></td><td></td><td></td><td>PASS</td></tr>
+        <tr><td class="test-name">Save As </td><td class="test-method"> Resave a file, so it's called saveasTest.txt. Check the output. </td><td></td><td></td><td></td><td>PASS</td></tr>
+        <tr><td class="test-name">Save All </td><td class="test-method"> Change each file in the open tabs, by adding a word. Click 'save all', and verify that each document is saved on disk. </td><td>PASS</td><td>PASS</td><td>PASS</td><td>PASS</td></tr>
+        <tr><td class="test-name">Close tab </td><td class="test-method"> Check that the current tab is closed after clicking close tab in the menu.</td><td>PASS</td><td>PASS</td><td>PASS</td><td>PASS</td></tr>
+        <tr><td class="test-name">Quit </td><td class="test-method"> Select quit from the menu or press Alt-F4, make sure the application quits, and frees the memory.</td><td></td><td></td><td></td><td>PASS</td></tr>
+        <tr><td class="test-name">Reopen Previous Files </td><td class="test-method"> Start the application again, seeing whether each previous document is loaded.</td><td></td><td></td><td></td><td>PASS</td></tr>
+        </tbody>
+    </table>
+
+
+</section>
+  
+</body>
+</html>
+

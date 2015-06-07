@@ -1,0 +1,10 @@
+Dependencies:
+Python 3 (3.4 on Windows)
+PyQt 4
+Python3-enchant
+
+Running the Program
+In Linux: open this folder in the terminal, run ./jotter.pyw
+or double click on jotter.pyw
+
+In Windows: Double click on jotter.pyw

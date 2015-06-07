@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+     <title>Jotter - Insert Date</title>
+    <meta name="" content="" />
+     <link rel="stylesheet" type="text/css" href="tests.css" />
+     
+  </head>
+<body id="">
+
+<header>
+    <h1>Jotter</h1>
+    <h2>Insert Date/Time Manual Tests</h2>
+</header>
+
+<section>
+    <table>
+        <thead><tr>
+    <th>Name</th><th>Method</th><th>WinXP (Optional)</th><th>Win7 32bit</th><th>OpenSuse 64bit</th><th>Xubuntu 32bit</th>
+        </tr></thead>
+
+        <tbody>
+        <tr><td class="test-name">Inserting Just Today</td><td class="test-method">Selecting the today checkbox and no other checkboxes inserts today's date in any format. </td><td>FAIL</td><td>FAIL</td><td>FAIL</td><td>FAIL</td></tr>
+        <tr><td class="test-name">Inserting the Current Time </td><td class="test-method">Selecting the current time (now) checkbox and nothing else produces the current time, in any format. </td><td>FAIL</td><td>FAIL</td><td>FAIL</td><td>FAIL</td></tr>
+        <tr><td class="test-name">Cancelling the Dialog</td><td class="test-method">Pressing the Cancel button gets rid of the dialog box without doing anything. </td><td></td><td></td><td></td><td>PASS</td></tr>
+        <tr><td class="test-name">Inserting the Current Date Stamp</td><td class="test-method">Selecting both today and now results in a time stamp being inserted into the document. </td><td>FAIL</td><td>FAIL</td><td>FAIL</td><td>FAIL</td></tr>
+        <tr><td class="test-name">Inserting a Date &lt;1970</td><td class="test-method">Inserting the date 1942AD goes correctly. </td><td></td><td></td><td></td><td>PASS</td></tr>
+        <tr><td class="test-name">Inserting a Date &gt;2038</td><td class="test-method"> Inserting the date 3042AD goes correctly. </td><td></td><td></td><td></td><td>PASS</td></tr>
+        <tr><td class="test-name">Date Format </td><td class="test-method">The date format is dependent on the locale and is 29/08/2014 on an en_GB locale.  </td><td>FAIL</td><td>FAIL</td><td>FAIL</td><td>FAIL</td></tr>
+        <tr><td class="test-name">Inserting a Time</td><td class="test-method">The time format is 13:00 with seconds only appearing if they're entered. </td><td>FAIL</td><td>FAIL</td><td>FAIL</td><td>FAIL</td></tr>
+        <tr><td class="test-name">Time Format</td><td class="test-method">In 24 hour format. Locale dependent. </td><td>FAIL</td><td>FAIL</td><td>FAIL</td><td>FAIL</td></tr>
+        <tr><td class="test-name">Insertion Point</td><td class="test-method">The date or time gets inserted just after the cursor. </td><td></td><td></td><td></td><td>PASS</td></tr>
+        </tbody>
+    </table>
+
+
+</section>
+  
+</body>
+</html>
+

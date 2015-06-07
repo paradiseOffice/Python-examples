@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Utility;TextEditor;
+Comment[de]=
+Comment=
+Exec=jotter
+Icon=images/win/jotter
+MimeType=text/plain;
+Name=Jotter
+Path=
+Terminal=false
+TerminalOptions=
+Type=Application

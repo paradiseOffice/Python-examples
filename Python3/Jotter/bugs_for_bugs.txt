@@ -1,0 +1,21 @@
+Bug Title,		Program		Function		Bug Type	Created		Fixed y/n	fixed notes
+
+cpp include regex	Jotter		cpp syntax		After #ifdef the const keyword is half in beige instead of all orange	n
+cpp single line comment Jotter		cpp syntax		After the '//', nothing else is grey
+BASH nums in beige	Jotter		Bash syntax		They should be lightcyan like all the other langs.	n very easy hack
+HTML syntax 1st letter	Jotter		HTML syntax		The first letter after a '>' or '/' character is always orange.	
+CSS selectors		Jotter		CSS syntax		Only the first selector part is blue, not the id's, classes or elements after that but before the curly. 
+CSS nums 		Jotter		CSS syntax		The number suffixes like 'pt', px, em should be the same colour as the numbers. The parentheses should also be bold.
+bracket matching not in	Jotter		editor			status bar - just a QLabel elsewhere.
+Line numbers is buggy	Jotter		line_nums		Should go in editor class, needs some work done to tidy up the method calls. (Qt assistant)
+Syntax not refreshing	Jotter		Syntax			When editing a
+program, the new lines aren't highlighted according with the syntax
+highlighting.
+
+Find feature		Jotter		editor			Add a simple
+find feature to find variables, words with simple regexes.
+
+Go to Line		Jotter		editor			A simple goto
+line dialog to take the cursor to that line.
+
+

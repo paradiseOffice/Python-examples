@@ -1,0 +1,11 @@
+* { margin: 0; padding: 0; }
+
+table { border: 1px solid blue; }
+.test-result { font-family: "Nimbus Sans L", "sans serif"; font-weight: bold; }
+td { padding: 0.3em; font-family: "Nimbus Sans L", "sans serif"; font-size: 100%; }
+.test-name { color: #800080; font-size: 120%; }
+.test-method {  border: 1px solid gray; }
+th { background: #7876FF; border-bottom: 3px solid #1c1c1c; }
+tbody tr { border-bottom: 2px solid #33326C; }
+tr:nth-child(even) { background: #c975ec; }
+tr:nth-child(odd) { background: #ededed; }
